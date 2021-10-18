@@ -16,7 +16,7 @@ export default function App() {
           -1
         </button>
       </div>
-      <button className="btn" onClick={() => setCount(count - count)}>
+      <button className="reset" onClick={() => setCount(count - count)}>
         Reset
       </button>
     </div>
